@@ -22,6 +22,8 @@ resource "aws_ecs_task_definition" "this" {
   })
 }
 
+###i
+
 resource "aws_ecs_service" "this" {
   name            = "${local.app_name}-service"
   task_definition = aws_ecs_task_definition.this.arn

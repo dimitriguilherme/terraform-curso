@@ -11,3 +11,9 @@ resource "aws_s3_bucket" "b" {
     Environment = "Dev"
   }
 }
+
+
+#o#
+#o#
+#o
+#o#
