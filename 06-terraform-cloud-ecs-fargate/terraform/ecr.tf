@@ -27,3 +27,9 @@ resource "null_resource" "docker" {
     command     = "docker push ${aws_ecr_repository.this.repository_url}:latest"
   }
 }
+
+
+
+#  
+#  
+# 
